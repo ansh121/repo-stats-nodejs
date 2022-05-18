@@ -1,0 +1,25 @@
+{
+  "name": "repo-stats-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansh121/repo-stats-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ansh121/repo-stats-nodejs/issues"
+  },
+  "homepage": "https://github.com/ansh121/repo-stats-nodejs#readme",
+  "dependencies": {
+    "@actions/core": "^1.8.0",
+    "@actions/github": "^5.0.1"
+  }
+}
