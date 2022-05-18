@@ -1,0 +1,14 @@
+name: "repo stats"
+description: "Get the number of open, closed, and merged pull requests and issue."
+inputs:
+  token:
+    description: "GITHUB_TOKEN"
+    required: true
+outputs:
+  issue_stats:
+    description: "Number of open and closed issues"
+  pull_request_stats:
+    description: "Number of open, closed and merged PRs"
+runs:
+  using: 'node16'
+  main: 'index.js'
